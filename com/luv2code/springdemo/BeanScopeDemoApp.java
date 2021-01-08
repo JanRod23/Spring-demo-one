@@ -15,9 +15,9 @@ public class BeanScopeDemoApp {
 		
 		// Check if they are the same beans
 		boolean result = (theCoach == alphaCoach);
-		System.out.println("\nPointing to the same object: " + result);
-		System.out.println("\nMemory location for theCoach: " + theCoach);
-		System.out.println("\nMemory location for alphaCoach: " + alphaCoach + "\n");
+		System.out.println("Pointing to the same object: " + result);
+		System.out.println("Memory location for theCoach: " + theCoach);
+		System.out.println("Memory location for alphaCoach: " + alphaCoach);
 		
 		// Close the context
 		context.close();
